@@ -31,7 +31,7 @@ requirements:
     - opentelemetry-proto ${{ version }}.*
     - opentelemetry-sdk ${{ version }}.*
     - opentelemetry-exporter-otlp-proto-common ${{ version }}.*
-    - opentelemetry-exporter-otlp-common ${{ version }}.*
+    - opentelemetry-exporter-otlp-common 0.66b0.*
 
 tests:
   - python:
